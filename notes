@@ -3,14 +3,42 @@ What do we want the app to do?
 - Player starts with amount of chips
 - Player bets every hand
 - Player can hit or fold
-- 
+- (First Deal) 
+    Deal 1 card to player, Deal 1 car to computer, 
+    Deal 1 card to player, Deal 1 car to computer
+- Display your amount of chips
+- Display wins/scoreboard
+- Display fireworks on BlackJack
+- Computer hits or stops at 17+
 
 
 What do we want the app to look like?
 - single page app (for now)
-- 
-- 
+- Buttons
+    - deal
+    - hit
+    - stay
+
+- Player Area
+    - Chip stack
+    - Card container
+    - Display dollar amount of chips
+    - Draw buttons for hit/stay
+    - Display icon for player
+    - Add four bet buttons with values - $5, $25, $100, $200
+
+- Dealer Area
+    - One facing card, one non-facing card
+    - Picture of the dealer
+    - At game over, display dealer's non-facing card
+
+- Table
+    -Green felt background
+    -
 
 What technologies will we use?
 - HTML
-- 
+- CSS
+- JAVASCRIPT
+- JQuery
+- Bootstrap
