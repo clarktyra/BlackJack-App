@@ -3,21 +3,50 @@
 let bet = 0;
 $("#5bet").on("click", function(){
     bet += 5;
+    $("#chipBetArea").text(bet)
     console.log(bet);
 })
 $("#10bet").on("click", function(){
     bet += 10;
+    $("#chipBetArea").text(bet)
     console.log(bet);
 })
 $("#25bet").on("click", function(){
     bet += 25;
+    $("#chipBetArea").text(bet)
     console.log(bet);
 })
 $("#50bet").on("click", function(){
     bet += 50;
+    $("#chipBetArea").text(bet)
     console.log(bet);
 })
-// console.log(bet);
+$("#clear").on("click", function(){
+    bet = 0;
+    $("#chipBetArea").text(bet)
+    console.log(bet);
+})
+ 
+
+
+// Chips
+let chips = 100
+$("#chipArea").text(chips)
+
+//deck of cards
+const cards = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 'A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 'A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 'A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 'A'];
+
+
+let playerCards = [];
+
+playerCards.push(cards[6]);
+playerCards.push(cards[8]);
+
+
+
+console.log(playerCards)
+
+$("#playerCards").text(playerCards.toString())
 
 
 
@@ -29,18 +58,9 @@ $("#50bet").on("click", function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
+/////////////Test Code/////////////////////////////////////////////
 // Generate Deck
-var cardNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'];
+var cardNums = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'];
 var suits = ['H', 'D', 'S', 'S'];
 
 var array = [];

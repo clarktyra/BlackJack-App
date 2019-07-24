@@ -43,6 +43,8 @@
             <div class="col-md-6 mx-auto">
                 <img src="./images/Professional-blackjack-dealer-at-a-blackjack-table.jpg">
                 <div id="dealerCards">Dealer Cards:</div>
+                <div>Count:</div>
+
             </div>
 
         </div>
@@ -60,16 +62,21 @@
                 <button type="button" class="bet btn btn-danger" id="25bet">$25</button>
                 <br>
                 <button type="button" class="bet btn btn-danger" id="50bet">$50</button>
+                <br>
+                <button type="button" class="bet btn btn-info" id="clear">Clear</button>
             </div>
             <div class="col-md-6 mx-auto">
-                <div id="playerCards">Player Cards:</div>
+        
+                    <div >Player Cards: <span id="playerCards"></span></div>
+                    <div>Count:</div>
+                
                 <br>
                 <div class="row">
-                        <div class="col-md-12" id="chipBetArea">Bet:</div>
+                        <div class="col-md-12" >Bet:<span id="chipBetArea"></span> </div>
                         <!-- <div class="col-md-6" id="chipBetValue">Num of bet</div> -->
                 </div>
                 <div class="row">
-                    <div class="col-md-12" id="chipArea">Chips:</div>
+                    <div class="col-md-12">Chips: <span id="chipArea"></span></div>
                     <!-- <div class="col-md-6" id="chipValue">Num of Chip</div> -->
                 </div>
                 <img src="./images/poker-player.jpeg">
